@@ -1,0 +1,36 @@
+[
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "Name",
+                "type": "string"
+            },
+            {
+                "name": "EyeColor",
+                "type": "string"
+            },
+            {
+                "name": "ShirtType",
+                "type": "string"
+            },
+            {
+                "name": "FaceShape",
+                "type": "string"
+            },
+            {
+                "name": "Bling",
+                "type": "string"
+            },
+            {
+                "name": "MetadataURI",
+                "type": "string"
+            }
+        ],
+        "name": "mintNFT",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+]

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Minting DApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>NFT Minting DApp</h1>
+    <div id="status"></div>
+
+    <!-- NFT Minting Form -->
+    <form id="mintForm">
+        <label>Name: <input type="text" id="name" required></label><br>
+        <label>Eye Color: <input type="text" id="eyeColor" required></label><br>
+        <label>Shirt Type: <input type="text" id="shirtType" required></label><br>
+        <label>Face Shape: <input type="text" id="faceShape" required></label><br>
+        <label>Bling: <input type="text" id="bling" required></label><br>
+        <label>Metadata URI: <input type="text" id="metadataURI" required></label><br>
+        <button type="submit">Mint NFT</button>
+    </form>
+
+    <button id="pauseMinting">Pause Minting</button>
+    <button id="resumeMinting">Resume Minting</button>
+    <button id="withdraw">Withdraw Funds</button>
+
+    <!-- List of NFTs -->
+    <h2>Minted NFTs</h2>
+    <div id="nftList"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.0/dist/web3.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
